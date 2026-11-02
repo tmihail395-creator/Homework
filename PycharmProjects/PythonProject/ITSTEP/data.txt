@@ -1,0 +1,4 @@
+Lines 1 : 45 symbols
+Lines 2 : 44 symbols
+Lines 3 : 33 symbols
+Lines 3 : 0 symbols

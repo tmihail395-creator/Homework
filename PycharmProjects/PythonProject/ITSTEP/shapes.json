@@ -1,0 +1,28 @@
+[
+  {
+    "type": "Square",
+    "x": 0,
+    "y": 0,
+    "side": 10
+  },
+  {
+    "type": "Rectangle",
+    "x": 5,
+    "y": 5,
+    "width": 20,
+    "height": 15
+  },
+  {
+    "type": "Circle",
+    "x": 10,
+    "y": 10,
+    "radius": 7
+  },
+  {
+    "type": "Ellipse",
+    "x": 2,
+    "y": 3,
+    "width": 12,
+    "height": 8
+  }
+]

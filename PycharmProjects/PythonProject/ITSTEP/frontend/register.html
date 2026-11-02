@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VOID//NET — регистрация</title>
+<link rel="icon" href="images%20(1).png">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="register">
+<div id="nav"></div>
+<main class="wrap">
+  <section class="box narrow">
+    <h2>Регистрация</h2>
+    <p class="muted">Вход только по авторскому коду.</p>
+    <form id="form" novalidate>
+      <label><span class="lbl">Авторский код</span>
+        <input id="code" type="text" placeholder="XXXX-XXXX-XXXX" maxlength="14" autocomplete="off">
+        <small class="err" id="e-code"></small></label>
+      <label><span class="lbl">Почта</span>
+        <input id="email" type="email" placeholder="name@example.com" autocomplete="off">
+        <small class="err" id="e-email"></small></label>
+      <label><span class="lbl">Номер телефона</span>
+        <input id="phone" type="tel" placeholder="+380 00 000 00 00" maxlength="19" autocomplete="off">
+        <small class="err" id="e-phone"></small></label>
+      <label><span class="lbl">Никнейм</span>
+        <input id="nick" type="text" placeholder="ghost_01" maxlength="16" autocomplete="off">
+        <small class="err" id="e-nick"></small></label>
+      <button type="submit" class="btn full">Запросить доступ</button>
+    </form>
+    <pre id="log" class="log" hidden></pre>
+  </section>
+</main>
+<div id="foot"></div>
+<script src="script.js"></script>
+</body>
+</html>

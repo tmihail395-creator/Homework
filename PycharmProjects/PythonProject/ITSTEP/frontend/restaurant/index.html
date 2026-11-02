@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресторан «Старе Місто»</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <div class="logo">
+                <h1>Ресторан «Старе Місто»</h1>
+                <p>Українська кухня з душею</p>
+            </div>
+
+            <!-- NAV -->
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#home">Головна</a></li>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#menu">Меню</a></li>
+                    <li><a href="#reviews">Відгуки</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="container">
+                <h2>Смак, який нагадує дім</h2>
+                <p>
+                    Страви за домашніми рецептами, свіжі локальні продукти
+                    та затишна атмосфера в самому серці міста.
+                </p>
+                <a class="btn" href="#contact">Забронювати столик</a>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="container">
+                <h2>Про нас</h2>
+                <p>
+                    Ресторан «Старе Місто» відкрився у 2015 році. Ми готуємо
+                    українські страви за рецептами наших бабусь і використовуємо
+                    продукти від місцевих фермерів.
+                </p>
+                <p>
+                    Шеф-кухар Олексій Коваленко має понад 15 років досвіду та
+                    щодня готує страви з сезонних продуктів.
+                </p>
+                <h3>Чому обирають нас</h3>
+                <ul class="check-list">
+                    <li>Свіжі продукти щодня</li>
+                    <li>Домашні рецепти</li>
+                    <li>Затишний зал на 40 місць</li>
+                    <li>Літня тераса</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <section class="section section-alt" id="menu">
+            <div class="container">
+                <h2>Наше меню</h2>
+
+                <div class="cards">
+                    <article class="card">
+                        <h3>Борщ з пампушками</h3>
+                        <p>Традиційний борщ на яловичому бульйоні зі сметаною та часниковими пампушками.</p>
+                        <p class="price">140 грн</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Вареники з картоплею</h3>
+                        <p>Домашні вареники з картоплею та засмаженою цибулею, подаються зі сметаною.</p>
+                        <p class="price">120 грн</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Деруни зі сметаною</h3>
+                        <p>Хрусткі картопляні деруни, подаються гарячими зі сметаною.</p>
+                        <p class="price">110 грн</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- REVIEWS -->
+        <section class="section" id="reviews">
+            <div class="container">
+                <h2>Відгуки гостей</h2>
+
+                <div class="cards">
+                    <blockquote class="card">
+                        <p>Найсмачніший борщ у місті! Обов'язково повернемося всією родиною.</p>
+                        <p class="author">— Марія, постійна гостя</p>
+                    </blockquote>
+
+                    <blockquote class="card">
+                        <p>Чудова атмосфера і привітний персонал. Дуже сподобалися вареники.</p>
+                        <p class="author">— Андрій</p>
+                    </blockquote>
+
+                    <blockquote class="card">
+                        <p>Святкували тут день народження, все пройшло ідеально. Дякуємо!</p>
+                        <p class="author">— Ірина</p>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+                <h2>Контакти</h2>
+
+                <div class="contact-wrap">
+
+                    <div class="contact-info">
+                        <p><strong>Адреса:</strong> м. Київ, вул. Шевченка, 15</p>
+                        <p><strong>Телефон:</strong> <a href="tel:+380441234567">+38 (044) 123-45-67</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:info@stare-misto.example">info@stare-misto.example</a></p>
+                        <p><strong>Години роботи:</strong> щодня з 10:00 до 23:00</p>
+                    </div>
+
+                    <form class="form" action="#" method="post">
+                        <div class="field">
+                            <label for="name">Ім'я</label>
+                            <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+380 00 000 00 00" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="service">Послуга</label>
+                            <select id="service" name="service" required>
+                                <option value="">— Оберіть послугу —</option>
+                                <option value="table">Бронювання столика</option>
+                                <option value="banquet">Банкет або свято</option>
+                                <option value="delivery">Доставка їжі</option>
+                                <option value="catering">Кейтеринг</option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <label for="message">Повідомлення</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Ваше повідомлення"></textarea>
+                        </div>
+
+                        <div class="field check">
+                            <input type="checkbox" id="agree" name="agree" required>
+                            <label for="agree">Я погоджуюсь з умовами обробки даних</label>
+                        </div>
+
+                        <button class="btn" type="submit">Надіслати</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Ресторан «Старе Місто». Усі права захищено.</p>
+            <p><a href="#top">Вгору ↑</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>

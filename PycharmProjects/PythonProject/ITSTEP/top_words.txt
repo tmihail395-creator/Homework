@@ -1,0 +1,10 @@
+('info', 5) : <class 'itertools.count'>
+('user', 5) : <class 'itertools.count'>
+('admin', 4) : <class 'itertools.count'>
+('logged', 3) : <class 'itertools.count'>
+('error', 3) : <class 'itertools.count'>
+('connection', 3) : <class 'itertools.count'>
+('in', 2) : <class 'itertools.count'>
+('successfully', 2) : <class 'itertools.count'>
+('timeout', 2) : <class 'itertools.count'>
+('on', 2) : <class 'itertools.count'>

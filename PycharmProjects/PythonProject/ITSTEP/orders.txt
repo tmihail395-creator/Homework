@@ -1,0 +1,66 @@
+
+Saved choice: 3
+	==========
+Founded order: (1, 'donats', 3, '15$')
+Saved choice: 1
+	==========
+	==========
+('bla', 'bla', 'bla', 'blu', 'blu', 'blu', 'be')
+Saved choice: 2
+	==========
+Saved choice: 4
+	==========
+Saved choice: 4
+	==========
+Updated order: (1, 4, '20$')
+Saved choice: 2
+	==========
+Saved choice: 4
+	==========
+Updated order: ('donats', 4, '20$')
+Saved choice: 2
+	==========
+Saved choice: 4
+	==========
+Updated order: ('donats', 3, '15$', 4, '20$')
+Saved choice: 2
+	==========
+Saved choice: 4
+	==========
+Updated order: ('donats', 3, '15$', 4, '20$')
+Saved choice: 2
+	==========
+Saved choice: 4
+	==========
+Saved choice: 1
+	==========
+('',)
+Saved choice: 4
+	==========
+Updated order: (1, 'donats', 4, '20$')
+Saved choice: 2
+	==========
+Saved choice: 5
+	==========
+Deleted order: (1, 'donats', 3, '15$')
+Saved choice: 2
+	==========
+Saved choice: 1
+	==========
+(1488, 'pizza', 4, '40$')
+Saved choice: 2
+	==========
+Saved choice: 3
+	==========
+Founded order: (1488, 'pizza', 4, '40$')
+Saved choice: 4
+	==========
+Updated order: (1488, 'pizza', 2, '20$')
+Saved choice: 2
+	==========
+Saved choice: 5
+	==========
+Deleted order: (1488, 'pizza', 2, '20$')
+Saved choice: 2
+	==========
+Saved choice: 6
